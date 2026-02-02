@@ -25,16 +25,6 @@ export default function MeetingsPage() {
   // Upcoming meetings (Heartland Farms stays upcoming + add attached meetings)
   const upcomingMeetings: Meeting[] = [
     {
-      id: 101,
-      title: "Industry Event with Heartland Farms",
-      date: "3rd December 2025",
-      time: "6:00pm",
-      location: "Morgridge Hall 2516",
-      description:
-        "Join us for a conversation with Heartland Farms as they discuss their computer-vision potato sorter project, machine learning algorithms, SQL database design, and real-world supply & manufacturing applications.",
-      // no image (optional)
-    },
-    {
       id: 102,
       title: "Kickoff",
       date: "28th January 2026",
